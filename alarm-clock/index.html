@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <div>
+        <label for="alarm">Set a time & day for your alarm:</label>
+        <input type="time" id="time" name="time">
+        <select name="day" id="day">
+            <option value="0">sunday</option>
+            <option value="1">monday</option>
+            <option value="2">tuesday</option>
+            <option value="3">wednesday</option>
+            <option value="4">thursday</option>
+            <option value="5">friday</option>
+            <option value="6">saturday</option>
+        </select>
+        <input type="submit" id="submit">
+        <br>
+        <div id="alarms">
+            <h1>Alarms</h1>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
