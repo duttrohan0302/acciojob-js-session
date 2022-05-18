@@ -32,5 +32,5 @@ const questionArr = [10,90,2,1,5,23];
 const answerArr = sortInWaveForm(questionArr)
 console.log(answerArr)
 
-// Time Complexity => 
-// Space Complexity => 
+// Time Complexity => O(n)
+// Space Complexity => O(1)
